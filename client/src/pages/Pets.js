@@ -60,7 +60,7 @@ export default function Pets () {
         __typename: 'Mutation',
         addPet: {
           __typename: 'Pet',
-          cid: Math.round(Math.random() * -1000000) + '',
+          cid: Math.round(Math.random() * 1000000) + '',
           type: input.type,
           name: input.name,
           img: 'https://via.placeholder.com/300',
